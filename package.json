@@ -1,6 +1,6 @@
 {
-  "name": "byo-svg2png2",
-  "version": "0.0.0",
+  "name": "svg2png2",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
@@ -14,6 +14,7 @@
     "wrangler": "^3.60.3"
   },
   "dependencies": {
-    "@resvg/resvg-wasm": "^2.6.2"
+    "@resvg/resvg-wasm": "^2.6.2",
+    "svg2png-wasm": "^1.4.1"
   }
 }
